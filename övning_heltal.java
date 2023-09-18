@@ -20,5 +20,14 @@ public class övning_heltal{
 
         System.out.println("Resten av 10/3 är " +rest1);
         System.out.println("Resten av 9/3 är " +rest2);
+
+        double decimal_tal1 = 5.0;
+        double decimal_tal2 = 23.41;
+
+        double dec_summa_add = decimal_tal1+decimal_tal2;
+        double dec_summa_sub = decimal_tal1-decimal_tal2;
+
+        System.out.println("summan av additionen är "+dec_summa_add);
+        System.out.println("summan av subtraktionen är " +dec_summa_sub);
     }
 }
